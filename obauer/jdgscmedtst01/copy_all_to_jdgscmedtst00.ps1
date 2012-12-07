@@ -1,0 +1,1 @@
+.\copy_all_to_serverXY.ps1 jdgscmedtst00

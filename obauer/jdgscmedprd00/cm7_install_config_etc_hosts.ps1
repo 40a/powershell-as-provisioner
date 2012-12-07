@@ -1,0 +1,2 @@
+echo "Add the financialservices host names to be able to test the installation."
+Add-Content 'C:\Windows\System32\Drivers\etc\hosts' '127.0.0.1 studio.financialservices.jdgscmedprd00.jdg.co.za preview.financialservices.jdgscmedprd00.jdg.co.za editor.jdgscmedprd00.jdg.co.za financialservices.jdgscmedprd00.jdg.co.za'

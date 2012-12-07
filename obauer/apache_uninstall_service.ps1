@@ -1,0 +1,1 @@
+C:\Apache2.2\bin\httpd.exe -k uninstall

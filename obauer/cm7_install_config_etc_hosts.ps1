@@ -1,0 +1,2 @@
+# Add the financialservices (and quickstart for testing purposes) host names to be able to test the installation.
+Add-Content 'C:\Windows\System32\Drivers\etc\hosts' '127.0.0.1 studio.financialservices.localhost studio.quickstart.localhost preview.financialservices.localhost preview.quickstart.localhost editor.localhost quickstart.localhost'

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<settings>
+  <common>
+    <directories>
+      <download>C:\Users\Administrator\Downloads</download>
+      <program>C:\Program Files</program>
+    </directories>
+  </common>
+
+  <applications name="java">
+    <name>Java</name>
+    <url>http://javadl.sun.com/webapps/download/AutoDL?BundleId=68736</url>
+    <binary>jre-7u7-windows-x64.exe</binary>
+    <type>exec</type>
+  </applications>
+
+  <applications name="7zip">
+    <name>7zip</name>
+    <!-- origin: http://downloads.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920-x64.msi?r=http%3A%2F%2Fwww.7-zip.org%2F&ts=1349696827&use_mirror=freefr-->
+    <url>http://downloads.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920-x64.msi?r=http%3A%2F%2Fwww.7-zip.org%2F&amp;ts=1349696827&amp;use_mirror=freefr</url>
+    <binary>7z920-x64.msi</binary>
+    <type>msi</type>
+  </applications>
+
+  <applications name="mysql">
+    <name>mysql</name>
+    <version>MySQL Server 5.5</version>
+    <url>http://cdn.mysql.com/Downloads/MySQL-5.5/mysql-5.5.28-winx64.msi</url>
+    <binary>mysql-5.5.28-winx64.msi</binary>
+    <type>msi</type>
+  </applications>
+
+  <applications name="mongodb">
+    <name>mongodb</name>
+    <url>http://downloads.mongodb.org/win32/mongodb-win32-x86_64-2008plus-2.2.0.zip</url>
+    <binary>mongodb-win32-x86_64-2008plus-2.2.0.zip</binary>
+    <type>zip</type>
+    <directories>
+      <directory>C:\var\log\mongodb</directory>
+      <directory>C:\var\lib\mongodb</directory>
+    </directories>
+  </applications>
+
+  <applications name="elasticsearch">
+    <name>elasticsearch</name>
+    <url>http://cloud.github.com/downloads/elasticsearch/elasticsearch/elasticsearch-0.19.9.zip</url>
+    <binary>elasticsearch-0.19.9.zip</binary>
+    <type>zip</type>
+  </applications>
+
+  <applications name="elasticsearch-service-wrapper">
+    <name>Elasticsearch Service Wrapper</name>
+    <url>https://github.com/elasticsearch/elasticsearch-servicewrapper/archive/master.zip</url>
+    <binary>elasticsearch-servicewrapper.zip</binary>
+    <type>zip</type>
+  </applications>
+
+ <applications name="elasticsearch-windows-wrapper">
+    <name>ElasticSearch Windows Wrapper</name>
+    <url>http://www.krenger.ch/wp-content/uploads/2012/06/wrapper-windows-x86-64-3.5.15.zip</url>
+    <binary>wrapper-windows-x86-64-3.5.15.zip</binary>
+    <type>zip</type>
+  </applications>
+
+  <applications name="apache">
+    <filename>Apache2.2</filename>
+    <url>http://mirror.netcologne.de/apache.org/httpd/binaries/win32/httpd-2.2.22-win32-x86-openssl-0.9.8t.msi</url>
+    <binary>httpd-2.2.22-win32-x86-openssl-0.9.8t.msi</binary>
+    <directory>C:\Apache2.2</directory>
+    <type>msi</type>
+  </applications>
+
+
+</settings>
